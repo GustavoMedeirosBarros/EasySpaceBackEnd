@@ -1,7 +1,7 @@
 
 import { MercadoPagoConfig, Payment } from 'mercadopago';
 
-const client = new MercadoPagoConfig({ accessToken: 'TEST-SEU-ACCESS-TOKEN-AQUI' });
+const client = new MercadoPagoConfig({ accessToken: 'TESTACCESSTOKEN' });
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
